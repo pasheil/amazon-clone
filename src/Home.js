@@ -17,7 +17,7 @@ function Home() {
             id={11}
             key={1}
             title="Crocs Men's Clog"
-            price={20.7}
+            price={12020.77777777}
             image="https://images-na.ssl-images-amazon.com/images/I/81WnMBnbWSL._AC_UL900_SR900,600_.jpg"
             rating={5}
           />
