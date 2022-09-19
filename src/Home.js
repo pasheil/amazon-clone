@@ -17,7 +17,7 @@ function Home() {
             id={11}
             key={1}
             title="Crocs Men's Clog"
-            price={12020.77777777}
+            price={12020.77}
             image="https://images-na.ssl-images-amazon.com/images/I/81WnMBnbWSL._AC_UL900_SR900,600_.jpg"
             rating={5}
           />
@@ -25,7 +25,7 @@ function Home() {
             id={22}
             key={2}
             title="ReoRia Women's Sexy Sleeveless Racer Back Halter Neck Bodysuit Tank Tops"
-            price={19.99}
+            price={20}
             image="https://images-na.ssl-images-amazon.com/images/I/51Q0USQzGxL._AC_UL900_SR900,600_.jpg"
             rating={4}
           />
