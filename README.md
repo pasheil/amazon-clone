@@ -1,12 +1,39 @@
-# Getting Started with Create React App
+# Getting Started with the Amazon Clone
 
+YouTube: https://www.youtube.com/watch?v=RDV3Z1KCBvo
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+FRONT-END
 ### `npm start`
+
+BACK-END
+### `cd functions`
+### `firebase emulators:start`
+
+**Deploying the App**
+In the project directory, run:
+### `firebase login`
+### `firebase init`
+**Hosting > Existing project > ### > build (public folder) > YES single page**
+
+Update changes:
+### `npm run build`
+### `firebase deploy` full before functions are deployed
+### `firebase deploy --only hosting` only app individualy, not functions
+
+**Deploying the BACK-END**
+**Update Firebase Plan from SPARK to BLAZE pay as you go**
+### `cd functions`
+### `firebase deploy --only functions`
+
+Check Axios local or firebase function.
+To buy in checkout fill all card details with 42 42 42...
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
